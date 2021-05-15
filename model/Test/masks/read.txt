@@ -1,0 +1,1 @@
+Collected images were not uploaded. To use the model, use the saved model in the git repo.
