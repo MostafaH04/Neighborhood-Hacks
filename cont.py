@@ -6,8 +6,6 @@ from PIL import Image
 import imutils
 from tensorflow.keras.preprocessing import image
 
-
-
 def modelPredict(frame, model):
     frame_predict = imutils.resize(frame, width= 150)
     frame_predict = frame_predict[0:150, 0:150]
